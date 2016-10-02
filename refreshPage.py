@@ -7,7 +7,7 @@ opener.addheaders = [('User-agent', 'Mozilla/5.0')]
   
 #refresh a specific page
 print('now start to load page：')  
-tempUrl = 'http://3g.163.com/ntes/special/00340BF8/seventlive.html?roomid=98246'  
+tempUrl = 'http://dian.ysbang.cn/'  
 for j in range(50000):  
     try :  
         opener.open(tempUrl)  
