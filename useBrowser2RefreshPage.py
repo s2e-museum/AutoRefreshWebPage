@@ -2,8 +2,8 @@ import webbrowser
 import time  
 import os  
   
-url = 'http://3g.163.com/ntes/special/00340BF8/seventlive.html?roomid=98246'
-for j in range(100):  
+url = 'http://c.m.163.com/news/l/102331.html?w=2'
+for j in range(200):  
 	webbrowser.open_new(url)
 	print('%s %d' % ('count :' , j))
 	
